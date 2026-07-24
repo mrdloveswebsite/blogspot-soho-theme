@@ -34,3 +34,23 @@
   --font-montserrat: "Montserrat", sans-serif;
 }
 
+@layer components {
+  .content-post-body {
+    @apply font-lato text-lg leading-relaxed;
+  }
+  .content-post-body h4 {
+    @apply font-bold my-4;
+  }
+
+  .content-post-body p {
+    @apply my-8;
+  }
+
+  .content-post-body ul {
+    @apply list-disc list-outside pl-10 space-y-2;
+  }
+
+  .content-post-body a {
+    @apply text-orange-800 hover:underline;
+  }
+}
